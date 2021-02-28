@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+ul,ol {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+img {
+    vertical-align: middle;
+}
+.container {
+    width:1250px;
+    margin: 0 auto;
+}
+/* ===========================================================
+                common css end
+=================================================================*/
+
+/*==================================================================
+            Header part starts
+==================================================================*/
+#header_part {
+    padding: 10px ;
+    background:rgba(47, 55, 56, 0.3);
+    position:absolute;
+    content: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.head {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.logo {
+   width:20%;
+  
+   
+}
+.header_menu {
+    width:80%;
+}
+.header_menu ul {
+    display: flex;
+    justify-content:flex-end;
+    position: relative;
+}
+.header_menu ul li a {
+    margin-right: 48px;
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+    font-size: 21px;
+    line-height:90px;
+    color: #fff;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.header_menu ul li a:hover {
+    color: black;
+}
+/*==================================================================
+            Header part End
+==================================================================*/
+/* =================================================================
+            Banner part starts
+======================================================================*/
+#banner_part {
+    padding: 136px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
+.banner_text {
+    text-align: center;
+}
+.banner_text h1 {
+    font-weight: 400;
+    font-size: 90px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.banner_text a {
+    padding: 23px 52px;
+    border: 1px solid #fff;
+    background:rgba(241, 241, 241, 0.144);
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right:30px;
+    margin-top: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.banner_text a:hover {
+    background:rgba(29, 30, 29, 0.80);
+    border-color: #1d1e1d;
+}
+/* =================================================================
+            Banner part End
+======================================================================*/
+/* =================================================================
+           Service part starts
+======================================================================*/
+#service_part {
+    padding: 75px 0 87px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+  
+}
+.service_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.service_col {
+    width: 34%;
+   
+}
+.service_col h2 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-left: 40px;
+
+}
+.shape {
+    margin-top: 10px;
+    margin-left: 85px;
+}
+.para {
+    margin-top: 32px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: #4c4c4c;
+    line-height: 24px;
+}
+.man {
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 60px;
+}
+.dish {
+    margin-left: 20px;
+}
+/* =================================================================
+            Service  part End
+======================================================================*/
+/* =================================================================
+                Green part starts
+======================================================================*/
+#green_part {
+    padding: 101px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.green_text {
+    width: 590px;
+    padding: 60px 93px 80px 88px;
+    background: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 767px;
+  
+}
+.green_text h3 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+    margin-left:50px;
+    
+}
+.green_shape  {
+    margin-top: 12px;
+    margin-left: 77px;
+    margin-bottom: 30px;
+}
+.green_text p {
+    font-family: 'Lato', sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+}
+.green_col {
+    width: 136px;
+    margin-top: 71px;
+}
+/* =================================================================
+            `    Green part End
+======================================================================*/
+/* =================================================================
+            `   Dollar part starts
+======================================================================*/
+#dollar_part {
+    padding: 107px 0 94px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.dollar_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.dollar_col {
+    width: 37%;
+    margin-left: 160px;
+    margin-bottom: 67px;
+}
+    
+.dollar_col1 {
+    width: 37%;
+    margin-left: 160px;
+    height: 325px;
+  
+}
+.dollar_col2 {
+    width: 37%;
+    margin-left: 160px;
+  
+    
+   
+}
+.dollar_col3 {
+    width: 25%;
+    margin-left: 160px;
+   position: absolute;
+    left:943px ;
+   top: 2669px;
+   
+    
+}
+.dollar_col h2 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-left: 120px;
+}
+.dollar_shape {
+    margin-top: 10px;
+    margin-left: 102px;
+}
+span {
+    float: right;
+}
+.dollar_col1 h2 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-left: 145px;
+}
+.doll_text h3 {
+    font-weight: 400;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: #c89f2d;
+    position: relative;
+    margin-top: 40px;
+    
+    
+}
+.doll_text h3::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom:-12px;
+    width: 100%;
+    height:1px;
+    background: #dfd1a2;
+    margin-top: 13px;
+    
+}
+.doll_text p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    color:#4c4c4c ;
+    margin-top: 30px;
+}
+.dollar_col2 h2 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-left: 165px;
+}
+.doll_text2 h3 {
+    font-weight: 400;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: #c89f2d;
+    position: relative;
+    margin-top: 40px;
+    
+    
+}
+.doll_text2 h3::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom:-12px;
+    width: 100%;
+    height:1px;
+    background: #dfd1a2;
+    margin-top: 13px;
+    
+}
+.doll_text2 p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    color:#4c4c4c ;
+    margin-top: 30px;
+}
+.dollar_col3 h2 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-left: 120px;
+}
+.doll_text3 h3 {
+    font-weight: 400;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: #c89f2d;
+    position: relative;
+    margin-top: 40px;
+    
+    
+}
+.doll_text3 h3::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom:-12px;
+    width: 100%;
+    height:1px;
+    background: #dfd1a2;
+    margin-top: 13px;
+    
+}
+.doll_text3 p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    color:#4c4c4c ;
+    margin-top: 30px;
+}
+.doll_text4 h3 {
+    font-weight: 400;
+    font-size: 21px;
+    font-family: 'Yeseva One', cursive;
+    color: #c89f2d;
+    position: relative;
+    margin-top: 40px;
+    
+    
+}
+.doll_text4 h3::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom:-12px;
+    width: 100%;
+    height:1px;
+    background: #dfd1a2;
+    margin-top: 13px;
+    
+}
+.doll_text4 p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    color:#4c4c4c ;
+    margin-top: 30px;
+}
+/* =================================================================
+                Dollar part end
+======================================================================*/
+/* =================================================================
+                Reviews part starts
+======================================================================*/
+#reviews_part {
+    padding: 100px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.green_text2 {
+    width: 849px;
+    padding: 60px 93px 80px 88px;
+    background: rgba(0, 0, 0, 0.67);
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 175px;
+    position: relative;
+  
+}
+.inner_img img {
+	height: 27px;
+	position: absolute;
+	content: '';
+	top: 158px;
+	left: 40px;
+}
+.green_text2 h3 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+    margin-left:180px;
+    
+}
+.green_shape2  {
+    margin-top: 12px;
+    margin-left: 189px;
+    margin-bottom: 30px;
+}
+.green_text2 p {
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #dde0df;
+    line-height: 45px;
+}
+.green_text2 span {
+    margin-top:47px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family:'Lato', sans-serif;
+    color:#ffffff ;
+   margin-right: 215px;
+    
+}
+/* =================================================================
+                Reviews part end
+======================================================================*/
+/* =================================================================
+                Food part starts
+======================================================================*/
+#food_part {
+    padding: 100px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.food_row {
+    display: flex;
+    flex-wrap:wrap;
+}
+.food_col {
+    width: 20%;
+    margin-right: 30px;
+
+}
+.food_col:nth-child(2) {
+    margin-right: 0;
+}
+.food_col img {
+    width: 100%;
+    max-width: 100%;
+}
+.food_col2 {
+    width: 35%;
+    margin-left: 95px;
+}
+.food_col2 h2{
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #cc9900;
+    margin-left: 45px;
+}
+.food_shape {
+    margin-top: 10px;
+    margin-left: 102px;
+}
+.food_col2 p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    color:#4c4c4c ;
+    line-height:24px;
+    text-align: center;
+}
+.second {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Lato', sans-serif;
+    color:#4c4c4c ;
+    line-height:24px;
+    text-align: center;
+    margin-top: 22px;
+}
+.form_col {
+    width: 125%;
+    float: left;
+}
+
+
+.form_col h3 {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color:#c9a131 ;
+}
+.one {
+    
+    padding: 11px 0px 9px 30px;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color:#7c7c7c ;
+    margin-top: 4px;
+}
+
+
+.food_col2 a {
+    padding: 14px 65px 14px 60px;
+    border: 1px solid #c9a131;
+    font-weight: 400;
+    background:#c9a131;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff ;
+    margin-top: 34px;
+    margin-left: 123px;
+    transition:all linear .3s ;
+    -webkit-transition:all linear .3s ;
+    -moz-transition:all linear .3s ;
+    -ms-transition:all linear .3s ;
+    -o-transition:all linear .3s ;
+}
+.food_col2 a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.form-first-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-second-main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;  
+}
+
+.form-first-main-email{
+    margin-left: 10px;
+}
+
+.form-second-main-email{
+    margin-left: 10px;
+}
+
+/* =================================================================
+                Food part end
+======================================================================*/
+/* =================================================================
+               Footer part starts
+======================================================================*/
+#footer_part {
+    padding: 60px;
+
+}
+.green_text3 h3 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+    margin-left:73px;
+    
+}
+ .green_text3 .head1 {
+    font-weight: 400;
+    font-size: 36px;
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+    margin-left:120px; 
+}
+.green_shape3  {
+    margin-top: 12px;
+    margin-left: 83px;
+    margin-bottom: 30px;
+}
+.footer_row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer_col {
+    width: 33%;
+}
+.footer_col p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff ;
+    line-height: 24px;
+  text-align:center;
+}
+.green_text3 p span {
+    font-weight: 700;
+}
+.six {
+    float:left;
+    margin-left: 66px;
+}
+}
+.seven {
+    float: left;
+}
+.eight {
+    margin-right: 87px;
+    margin-left: 50px;
+}
+.card ul {
+    display: flex;
+    margin-left: 159px;
+    margin-top: 55px;
+  
+    
+}
+.card ul li a {
+    margin-right: 12px;
+    text-align: center;
+    color:#fff;
+}
+.ten {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff ;
+    font-weight: 700;
+}
+.card2 ul {
+    display: flex;
+    margin-left: 162px;
+    margin-top: 55px;
+  
+    
+}
+.card2 ul li a {
+    margin-right: 12px;
+    text-align: center;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================================
+               Footer part end
+======================================================================*/
+
